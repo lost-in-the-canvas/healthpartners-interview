@@ -9,6 +9,7 @@ dependencies = [
     "black>=24.8.0",
     "requests>=2.32.3",
     "pytest>=8.3.2",
+    "pydantic[email]>=2.8.2",
 ]
 readme = "README.md"
 requires-python = ">= 3.8"
