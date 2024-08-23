@@ -56213,3 +56213,8 @@ FileNotFoundError: [Errno 2] No such file or directory: '[{"accessLevel":"public
 2024-08-23 15:36:23 - DEBUG - Current time: 2024-08-23 15:36:23.700445
 2024-08-23 15:36:23 - DEBUG - Difference: 0:01:20.516756
 2024-08-23 15:36:23 - INFO - Fetch datasets skipped. Last run was less than 24 hours ago.
+2024-08-23 15:41:55 - INFO - Starting CMS data download and processing...
+2024-08-23 15:41:55 - DEBUG - Last run time: 2024-08-23 15:35:03.183689
+2024-08-23 15:41:55 - DEBUG - Current time: 2024-08-23 15:41:55.664631
+2024-08-23 15:41:55 - DEBUG - Difference: 0:06:52.480942
+2024-08-23 15:41:55 - INFO - Fetch datasets skipped. Last run was less than 24 hours ago.

@@ -8,3 +8,9 @@ wheels/
 
 # venv
 .venv
+
+# logs
+logs/
+
+# performance profiling
+performance_profiles/
