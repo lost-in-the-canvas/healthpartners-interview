@@ -1,9 +1,8 @@
 import logging
-import os
-
 import requests
-import pyinstrument
 from pyinstrument import Profiler
+
+from src.healthpartners_interview.decorators.profiling import profile_function
 from src.healthpartners_interview.pydantic_models.models import Dataset, ValidationError
 
 API_URL = 'https://data.cms.gov/provider-data/api/1/metastore/schemas/dataset/items'
@@ -32,23 +31,11 @@ def fetch_datasets():
         logging.error("Failed to fetch datasets", exc_info=e)
         return None
 
+@profile_function()
 def download_datasets(theme="Hospitals"):
     """Download datasets based on a specified theme."""
     try:
-        with Profiler() as profiler:
-            # Call the fetch_datasets function
-            datasets = fetch_datasets()
-
-        # Ensure the performance_profiles directory exists
-        os.makedirs("./performance_profiles", exist_ok=True)
-
-        # Write the profiler output to a Speedscope file
-        with open("./performance_profiles/profiler_output_fetch_datasets_fn.speedscope.json", "w") as f:
-            f.write(profiler.output(pyinstrument.renderers.SpeedscopeRenderer(show_all=True, timeline=True, processor_options={'show_native': True})))
-
-        # Write the profiler output to an HTML file
-        with open("./performance_profiles/profiler_output_fetch_datasets_fn.html", "w") as f:
-            f.write(profiler.output_html())
+        datasets = fetch_datasets()
 
         # Your existing code for downloading datasets goes here
         return []

@@ -3,7 +3,7 @@ from typing import List, Optional
 import requests
 from pydantic import BaseModel, EmailStr, Field, ValidationError
 
-# Define Pydantic models
+# Define Pydantic pydantic_models
 class ContactPoint(BaseModel):
     type: str = Field(..., alias='@type')
     fn: str
