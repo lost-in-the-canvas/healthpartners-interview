@@ -1,3 +1,3 @@
-# healthpartners-interview-data-engineer-take-home
+# healthpartners-interview
 
 Describe your project here.

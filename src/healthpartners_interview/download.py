@@ -1,16 +1,10 @@
 import logging
 import requests
-from pydantic_models.models import Dataset, ValidationError
+import pyinstrument
+from pyinstrument import Profiler
+from src.healthpartners_interview.pydantic_models.models import Dataset, ValidationError
 
 API_URL = 'https://data.cms.gov/provider-data/api/1/metastore/schemas/dataset/items'
-
-# Set the logging level
-logging.basicConfig(
-    level=logging.INFO,  # Equivalent to log_cli_level = "INFO"
-    format='%(pastime)s - %(levelness)s - %(message)s',  # Equivalent to log_cli_format
-    datefmt='%Y-%m-%d %H:%M:%S',  # Equivalent to log_cli_date_format
-    filename='./logs/pytest.log' # Equivalent to log_file
-)
 
 def fetch_datasets():
     """Fetch datasets and then return a validated JSON response."""
@@ -25,10 +19,10 @@ def fetch_datasets():
             try:
                 dataset = Dataset(**item)
                 datasets.append(dataset)
-                # Log the valdiated dataset and continue to the next dataset
+                # Log validated dataset and continue to the next dataset
                 logging.info("Validated dataset: %s", dataset.title)
             except ValidationError as e:
-                # Log the validation error and continue to the next dataset
+                # Log validation error and continue to the next dataset
                 logging.error("Validation error for dataset: %s", item.get('title', 'Unknown title'), exc_info=e)
         logging.info('✅ Finished fetching datasets.')
         return datasets
@@ -39,7 +33,14 @@ def fetch_datasets():
 def download_datasets(theme="Hospitals"):
     """Download datasets based on a specified theme."""
     try:
-        datasets = fetch_datasets()
+        with Profiler() as profiler:
+            # Call the fetch_datasets function
+            datasets = fetch_datasets()
+        # Write the profiler output to a file to load into the speedscope viewer
+        with open("profiler_output_download_datasets_fn", "w") as f:
+            f.write(profiler.output(pyinstrument.renderers.SpeedscopeRenderer(show_all=True,timeline=True,processor_options={'show_native': True})))
+        profiler.open_in_browser()
+
         if datasets is None:
             return []
 
