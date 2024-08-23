@@ -1,5 +1,4 @@
 import logging
-import structlog
 from typing import List, Optional
 import requests
 from pydantic import BaseModel, EmailStr, Field, ValidationError

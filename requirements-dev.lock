@@ -16,6 +16,8 @@ black==24.8.0
     # via healthpartners-interview-data-engineer-take-home
 certifi==2024.7.4
     # via requests
+cffi==1.17.0
+    # via pytest-codspeed
 charset-normalizer==3.3.2
     # via requests
 click==8.1.7
@@ -28,6 +30,8 @@ dnspython==2.6.1
     # via email-validator
 email-validator==2.2.0
     # via pydantic
+filelock==3.15.4
+    # via pytest-codspeed
 idna==3.7
     # via email-validator
     # via requests
@@ -48,20 +52,27 @@ platformdirs==4.2.2
     # via black
 pluggy==1.5.0
     # via pytest
+pycparser==2.22
+    # via cffi
 pydantic==2.8.2
     # via healthpartners-interview-data-engineer-take-home
 pydantic-core==2.20.1
     # via pydantic
 pygments==2.18.0
     # via rich
+pyinstrument==4.7.2
+    # via healthpartners-interview-data-engineer-take-home
 pytest==8.3.2
+    # via healthpartners-interview-data-engineer-take-home
+    # via pytest-codspeed
+pytest-codspeed==2.2.1
     # via healthpartners-interview-data-engineer-take-home
 requests==2.32.3
     # via healthpartners-interview-data-engineer-take-home
 rich==13.7.1
     # via healthpartners-interview-data-engineer-take-home
-structlog==24.4.0
-    # via healthpartners-interview-data-engineer-take-home
+setuptools==73.0.1
+    # via pytest-codspeed
 typing-extensions==4.12.2
     # via pydantic
     # via pydantic-core

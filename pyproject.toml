@@ -10,9 +10,10 @@ dependencies = [
     "requests>=2.32.3",
     "pytest>=8.3.2",
     "pydantic[email]>=2.8.2",
-    "structlog>=24.4.0",
     "rich>=13.7.1",
     "colorama>=0.4.6",
+    "pyinstrument>=4.7.2",
+    "pytest-codspeed>=2.2.1",
 ]
 readme = "README.md"
 requires-python = ">= 3.8"
@@ -32,5 +33,6 @@ allow-direct-references = true
 packages = ["src/healthpartners_interview_data_engineer_take_home"]
 
 [tool.pytest.ini_options]
+log_cli_level = "INFO"
 log_cli_format = "%(asctime)s - %(levelname)s - %(message)s"
 log_cli_date_format = "%Y-%m-%d %H:%M:%S"
