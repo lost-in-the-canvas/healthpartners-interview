@@ -18,24 +18,27 @@ def fetch_datasets():
         response.raise_for_status()
 
         datasets = []
-        parser = ijson.parse(response.text, multiple_values=True)
+        parser = ijson.parse(response.text)
 
-        current_item = {}
+        current_object = None
         for prefix, event, value in parser:
             if prefix == '' and event == 'start_array':
                 continue
             elif prefix == '' and event == 'end_array':
                 break
             elif event == 'start_map':
-                current_item = {}
+                current_object = {}
             elif event == 'end_map':
                 try:
-                    dataset = Dataset(**current_item)
-                    datasets.append(dataset)
-                    logging.info("Validated dataset: %s", dataset.title)
+                    # Print that a top-level object has been found
+                    logging.debug("Found top-level object:")
+                    logging.debug(current_object)
+                    # dataset = Dataset(**current_item)
+                    # datasets.append(dataset)
+                    # logging.info("Validated dataset: %s", dataset.title)
 
                     # Here you can perform any actions you want with the validated dataset
-                    print(f"Processed dataset: {dataset.title}")
+                    print(f"Processed dataset: {current_object.title}")
 
                 # End the program if there is a validation error
                 except ValidationError as e:
@@ -43,9 +46,9 @@ def fetch_datasets():
                     sys.exit(1)
 
                 # Clear the current_item for the next dataset
-                current_item = {}
-            elif '.' not in prefix:  # This is a top-level key
-                current_item[prefix] = value
+                current_object = {}
+            elif current_object is not None:
+                current_object[prefix] = value
 
         logging.info('✅ Finished fetching datasets.')
         return datasets

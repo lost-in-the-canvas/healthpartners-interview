@@ -5,9 +5,44 @@
     "city": "New York"
   },
   {
-    "name": "Jane Smith",
-    "age": 25,
-    "city": "Los Angeles"
+    "accessLevel": "public",
+    "landingPage": "https://data.cms.gov/provider-data/dataset/23ew-n7w9",
+    "bureauCode": [
+      "009:38"
+    ],
+    "issued": "2020-03-14",
+    "@type": "dcat:Dataset",
+    "modified": "2024-06-21",
+    "released": "2024-07-17",
+    "keyword": [
+      "Quality",
+      "Quality Measures"
+    ],
+    "contactPoint": {
+      "@type": "vcard:Contact",
+      "fn": "Dialysis Facility Helpdesk",
+      "hasEmail": "mailto:DialysisData@umich.edu"
+    },
+    "publisher": {
+      "@type": "org:Organization",
+      "name": "Centers for Medicare & Medicaid Services (CMS)"
+    },
+    "identifier": "23ew-n7w9",
+    "description": "A list of all dialysis facilities registered with Medicare that includes addresses and phone numbers, as well as services and quality of care provided.",
+    "title": "Dialysis Facility - Listing by Facility",
+    "programCode": [
+      "009:000"
+    ],
+    "distribution": [
+      {
+        "@type": "dcat:Distribution",
+        "downloadURL": "https://data.cms.gov/provider-data/sites/default/files/resources/c04d84bc5c641284494bee4f20f17f9c_1720656304/DFC_FACILITY.csv",
+        "mediaType": "text/csv"
+      }
+    ],
+    "theme": [
+      "Dialysis facilities"
+    ]
   },
   {
     "name": "Bob Johnson",

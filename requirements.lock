@@ -18,6 +18,8 @@ charset-normalizer==3.3.2
     # via requests
 idna==3.8
     # via requests
+ijson==3.3.0
+    # via healthpartners-interview
 pydantic==2.8.2
     # via healthpartners-interview
 pydantic-core==2.20.1
