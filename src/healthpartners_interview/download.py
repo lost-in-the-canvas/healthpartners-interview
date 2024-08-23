@@ -1,9 +1,8 @@
 import logging
 import sys
 
-import requests
 import ijson
-import gzip
+import requests
 
 from src.healthpartners_interview.decorators.profiling import profile_function
 from src.healthpartners_interview.pydantic_models.models import Dataset, ValidationError
@@ -65,11 +64,18 @@ def fetch_datasets():
         response = requests.get(API_URL, stream=True)
         response.raise_for_status()
 
+
         datasets  = []
+        number_of_themed_datasets = 0
 
         for dataset_obj in parse_json(response.text):
             validate_and_append_dataset(dataset_obj, datasets)
+            # If the theme is specified, filter the datasets by the theme "Hospitals"
+            if dataset_obj.get('theme') == ["Hospitals"]:
+                number_of_themed_datasets += 1
 
+        # Log the number of themed datasets
+        logging.info("Number of themed datasets: %d", number_of_themed_datasets)
         logging.info('✅ Finished fetching datasets.')
         return datasets
     except Exception as e:

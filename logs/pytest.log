@@ -55005,3 +55005,484 @@ FileNotFoundError: [Errno 2] No such file or directory: '[{"accessLevel":"public
 2024-08-23 14:55:06 - INFO - Validated dataset: Pharmacy Office Visit Costs
 2024-08-23 14:55:06 - INFO - ✅ Finished fetching datasets.
 2024-08-23 14:55:06 - INFO - Completed CMS data download and processing.
+2024-08-23 15:05:32 - INFO - Starting CMS data download and processing...
+2024-08-23 15:05:32 - INFO - 🏗️ Fetching datasets...
+2024-08-23 15:05:32 - DEBUG - Starting new HTTPS connection (1): data.cms.gov:443
+2024-08-23 15:05:32 - DEBUG - https://data.cms.gov:443 "GET /provider-data/api/1/metastore/schemas/dataset/items HTTP/11" 200 30377
+2024-08-23 15:05:32 - INFO - Validated dataset: Dialysis Facility - Listing by Facility
+2024-08-23 15:05:32 - INFO - Validated dataset: Dialysis Facility - State Averages
+2024-08-23 15:05:32 - INFO - Validated dataset: Dialysis Facility - National Averages
+2024-08-23 15:05:32 - INFO - Validated dataset: Patient survey (ICH CAHPS) - Facility
+2024-08-23 15:05:32 - INFO - Validated dataset: Patient survey (ICH CAHPS) - National
+2024-08-23 15:05:32 - INFO - Validated dataset: Home Health Care - Zip Codes
+2024-08-23 15:05:32 - INFO - Validated dataset: Home Health Care Agencies
+2024-08-23 15:05:32 - INFO - Validated dataset: Home Health Care - National Data
+2024-08-23 15:05:32 - INFO - Validated dataset: Hospice - Zip Data
+2024-08-23 15:05:32 - INFO - Validated dataset: Hospice - General Information
+2024-08-23 15:05:32 - INFO - Validated dataset: Hospice - Provider Data
+2024-08-23 15:05:32 - INFO - Validated dataset: Hospice care - Provider CAHPS Hospice Survey Data
+2024-08-23 15:05:32 - INFO - Validated dataset: Hospice care - National CAHPS Hospice Survey Data
+2024-08-23 15:05:32 - INFO - Validated dataset: Outpatient and Ambulatory Surgery Consumer Assessment of Healthcare Providers and Systems (OAS CAHPS) survey for ambulatory surgical centers - Facility
+2024-08-23 15:05:32 - INFO - Validated dataset: Ambulatory Surgical Center Quality Measures - Facility
+2024-08-23 15:05:32 - INFO - Validated dataset: Ambulatory Surgical Center Quality Measures - National
+2024-08-23 15:05:32 - INFO - Validated dataset: Outpatient and Ambulatory Surgery Consumer Assessment of Healthcare Providers and Systems (OAS CAHPS) survey for ambulatory surgical centers - National
+2024-08-23 15:05:32 - INFO - Validated dataset: Ambulatory Surgical Center Quality Measures - State
+2024-08-23 15:05:32 - INFO - Validated dataset: Outpatient and Ambulatory Surgery Consumer Assessment of Healthcare Providers and Systems (OAS CAHPS) survey for ambulatory surgical centers - State
+2024-08-23 15:05:32 - INFO - Validated dataset: Comprehensive Care For Joint Replacement Model - Provider Data
+2024-08-23 15:05:32 - INFO - Validated dataset: CMS Medicare PSI-90 and component measures - six-digit estimate dataset
+2024-08-23 15:05:32 - INFO - Validated dataset: Complications and Deaths - Hospital
+2024-08-23 15:05:32 - INFO - Validated dataset: Complications and Deaths - National
+2024-08-23 15:05:32 - INFO - Validated dataset: Complications and Deaths - State
+2024-08-23 15:05:32 - INFO - Validated dataset: Footnote Crosswalk
+2024-08-23 15:05:32 - INFO - Validated dataset: Outpatient and Ambulatory Surgery Consumer Assessment of Healthcare Providers and Systems (OAS CAHPS) survey - Footnotes
+2024-08-23 15:05:32 - INFO - Validated dataset: Table 2: FY2021 Distribution of Net Change in Base Operating DRG Payment Amount
+2024-08-23 15:05:32 - INFO - Validated dataset: Table 1: FY2021 Net Change in Base Operating DRG Payment Amount
+2024-08-23 15:05:32 - INFO - Validated dataset: Table 3: FY2021 Percent Change in Medicare Payments
+2024-08-23 15:05:32 - INFO - Validated dataset: Table 4: FY2021 Value-Based Incentive Payment Amount
+2024-08-23 15:05:32 - INFO - Validated dataset: Patient survey (HCAHPS) - Hospital
+2024-08-23 15:05:32 - INFO - Validated dataset: Patient survey (HCAHPS) - National
+2024-08-23 15:05:32 - INFO - Validated dataset: Patient survey (HCAHPS) - State
+2024-08-23 15:05:32 - INFO - Validated dataset: Healthcare Associated Infections - Hospital
+2024-08-23 15:05:32 - INFO - Validated dataset: Healthcare Associated Infections - National
+2024-08-23 15:05:32 - INFO - Validated dataset: Healthcare Associated Infections - State
+2024-08-23 15:05:32 - INFO - Validated dataset: Outpatient and Ambulatory Surgery Consumer Assessment of Healthcare Providers and Systems (OAS CAHPS) survey for hospital outpatient departments - Facility
+2024-08-23 15:05:32 - INFO - Validated dataset: Outpatient and Ambulatory Surgery Consumer Assessment of Healthcare Providers and Systems (OAS CAHPS) survey for hospital outpatient departments - National
+2024-08-23 15:05:32 - INFO - Validated dataset: Outpatient and Ambulatory Surgery Consumer Assessment of Healthcare Providers and Systems (OAS CAHPS) survey for hospital outpatient departments - State
+2024-08-23 15:05:32 - INFO - Validated dataset: Hospital General Information
+2024-08-23 15:05:32 - INFO - Validated dataset: Complications and Unplanned Hospital Visits - PPS-Exempt Cancer Hospital - Hospital
+2024-08-23 15:05:32 - INFO - Validated dataset: Complications and Unplanned Hospital Visits - PPS-Exempt Cancer Hospital - National
+2024-08-23 15:05:32 - INFO - Validated dataset: Hospital-Acquired Condition (HAC) Reduction Program
+2024-08-23 15:05:32 - INFO - Validated dataset: Medicare Spending Per Beneficiary - Hospital Additional Decimal Places
+2024-08-23 15:05:32 - INFO - Validated dataset: Safety and Healthcare-Associated Infection Measures - PPS-Exempt Cancer Hospital
+2024-08-23 15:05:32 - INFO - Validated dataset: Patient Survey (PCH - HCAHPS) PPS-Exempt Cancer Hospital - Hospital
+2024-08-23 15:05:32 - INFO - Validated dataset: Patient Survey (PCH - HCAHPS) PPS-Exempt Cancer Hospital - National
+2024-08-23 15:05:32 - INFO - Validated dataset: Patient Survey (PCH - HCAHPS) PPS-Exempt Cancer Hospital - State
+2024-08-23 15:05:32 - INFO - Validated dataset: Hospital Readmissions Reduction Program
+2024-08-23 15:05:32 - INFO - Validated dataset: Hospital Value-Based Purchasing (HVBP) - Clinical Outcomes Domain Scores
+2024-08-23 15:05:32 - INFO - Validated dataset: Hospital Value-Based Purchasing (HVBP) - Efficiency Scores
+2024-08-23 15:05:32 - INFO - Validated dataset: Hospital Value-Based Purchasing (HVBP) - Person and Community Engagement Domain Scores (HCAHPS)
+2024-08-23 15:05:32 - INFO - Validated dataset: Hospital Value-Based Purchasing (HVBP) - Safety
+2024-08-23 15:05:32 - INFO - Validated dataset: Hospital Value-Based Purchasing (HVBP) - Total Performance Score
+2024-08-23 15:05:32 - INFO - Validated dataset: Inpatient Psychiatric Facility Quality Measure Data - by Facility
+2024-08-23 15:05:32 - INFO - Validated dataset: Inpatient Psychiatric Facility Quality Measure Data - National
+2024-08-23 15:05:32 - INFO - Validated dataset: Inpatient Psychiatric Facility Quality Measure Data - by State
+2024-08-23 15:05:32 - INFO - Validated dataset: Measure Dates
+2024-08-23 15:05:32 - INFO - Validated dataset: Medicare Hospital Spending by Claim
+2024-08-23 15:05:32 - INFO - Validated dataset: Medicare Spending Per Beneficiary - Hospital
+2024-08-23 15:05:32 - INFO - Validated dataset: Medicare Spending Per Beneficiary - National
+2024-08-23 15:05:32 - INFO - Validated dataset: Medicare Spending Per Beneficiary - State
+2024-08-23 15:05:32 - INFO - Validated dataset: Outpatient Imaging Efficiency - Hospital
+2024-08-23 15:05:32 - INFO - Validated dataset: Outpatient Imaging Efficiency - National
+2024-08-23 15:05:32 - INFO - Validated dataset: Outpatient Imaging Efficiency - State
+2024-08-23 15:05:32 - INFO - Validated dataset: Payment - National
+2024-08-23 15:05:32 - INFO - Validated dataset: Payment and value of care - Hospital
+2024-08-23 15:05:32 - INFO - Validated dataset: Timely and Effective Care - Hospital
+2024-08-23 15:05:32 - INFO - Validated dataset: Timely and Effective Care - National
+2024-08-23 15:05:32 - INFO - Validated dataset: Timely and Effective Care - State
+2024-08-23 15:05:32 - INFO - Validated dataset: Unplanned Hospital Visits - Hospital
+2024-08-23 15:05:32 - INFO - Validated dataset: Unplanned Hospital Visits - National
+2024-08-23 15:05:32 - INFO - Validated dataset: Unplanned Hospital Visits - State
+2024-08-23 15:05:32 - INFO - Validated dataset: Veterans Health Administration Behavioral Health Data
+2024-08-23 15:05:32 - INFO - Validated dataset: Veterans Health Administration Timely and Effective Care Data
+2024-08-23 15:05:32 - INFO - Validated dataset: Value of care - National
+2024-08-23 15:05:32 - INFO - Validated dataset: Veterans Health Administration Provider Level Data
+2024-08-23 15:05:32 - INFO - Validated dataset: Data Updates
+2024-08-23 15:05:32 - INFO - Validated dataset: Inpatient Rehabilitation Facility - General Information
+2024-08-23 15:05:32 - INFO - Validated dataset: Inpatient Rehabilitation Facility - Provider Data
+2024-08-23 15:05:32 - INFO - Validated dataset: Inpatient Rehabilitation Facility - Conditions
+2024-08-23 15:05:32 - INFO - Validated dataset: Long-Term Care Hospital - General Information
+2024-08-23 15:05:32 - INFO - Validated dataset: Long-Term Care Hospital - Provider Data
+2024-08-23 15:05:32 - INFO - Validated dataset: Fire Safety Deficiencies
+2024-08-23 15:05:32 - INFO - Validated dataset: Health Deficiencies
+2024-08-23 15:05:32 - INFO - Validated dataset: MDS Quality Measures
+2024-08-23 15:05:32 - INFO - Validated dataset: Medicare Claims Quality Measures
+2024-08-23 15:05:32 - INFO - Validated dataset: Ownership
+2024-08-23 15:05:32 - INFO - Validated dataset: Penalties
+2024-08-23 15:05:32 - INFO - Validated dataset: Provider Information
+2024-08-23 15:05:32 - INFO - Validated dataset: Skilled Nursing Facility Quality Reporting Program - Provider Data
+2024-08-23 15:05:32 - INFO - Validated dataset: Skilled Nursing Facility Quality Reporting Program - Swing Beds - Provider Data
+2024-08-23 15:05:32 - INFO - Validated dataset: State US Averages
+2024-08-23 15:05:32 - INFO - Validated dataset: Survey Summary
+2024-08-23 15:05:32 - INFO - Validated dataset: FY 2024 SNF VBP Facility-Level Dataset
+2024-08-23 15:05:32 - INFO - Validated dataset: FY 2024 SNF VBP Aggregate Performance
+2024-08-23 15:05:32 - INFO - Validated dataset: Nursing Home Data Collection Intervals
+2024-08-23 15:05:32 - INFO - Validated dataset: Citation Code Look-up
+2024-08-23 15:05:32 - INFO - Validated dataset: National Downloadable File
+2024-08-23 15:05:32 - INFO - Validated dataset: PY 2022 Group Public Reporting: MIPS Measures and Attestations
+2024-08-23 15:05:32 - INFO - Validated dataset: PY 2022 Group Public Reporting: Patient Experience
+2024-08-23 15:05:32 - INFO - Validated dataset: PY 2022 Clinician Public Reporting: MIPS Measures and Attestations
+2024-08-23 15:05:32 - INFO - Validated dataset: PY 2022 Clinician Public Reporting: Overall MIPS Performance
+2024-08-23 15:05:32 - INFO - Validated dataset: Inspection Dates
+2024-08-23 15:05:32 - INFO - Validated dataset: State-Level Health Inspection Cut Points
+2024-08-23 15:05:32 - INFO - Validated dataset: Home Health Care - Patient Survey (HHCAHPS) 2023Q1 to 2023Q4
+2024-08-23 15:05:32 - INFO - Validated dataset: Home Health Care - Patient Survey (HHCAHPS) National Data 2023Q1 to 2023Q4
+2024-08-23 15:05:32 - INFO - Validated dataset: Home Health Care - Patient Survey (HHCAHPS) State Data 2023Q1 to 2023Q4
+2024-08-23 15:05:32 - INFO - Validated dataset: Home Health Care - Patient Survey (HHCAHPS) Measure Dates 2023Q1 to 2023Q4
+2024-08-23 15:05:32 - INFO - Validated dataset: Addiction Medicine Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Advanced Heart Failure and Transplant Cardiology Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Allergy/ Immunology Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Anesthesiology Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Cardiac Surgery Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Cardiology Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Certified Clinical Nurse Specialist Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Certified Nurse Midwife Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Certified Registered Nurse Anesthetist (CRNA) Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Clinic or Group Practice Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Clinical Cardiac Electrophysiology Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Clinical Laboratory Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Colorectal Surgery (Proctology) Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Critical Care (Intensivists) Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Dentist Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Dermatology Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Diagnostic Radiology Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Emergency Medicine Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Endocrinology Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Family Practice Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Gastroenterology Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: General Practice Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: General Surgery Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Geriatric Medicine Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Geriatric Psychiatry Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Gynecological Oncology Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Hand Surgery Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Hematology Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Hematology-Oncology Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Hematopoietic Cell Transplantation and Cellular Therapy Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Hospice and Palliative Care Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Hospitalist Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Infectious Disease Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Internal Medicine Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Interventional Cardiology Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Interventional Pain Management Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Interventional Radiology Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Maxillofacial Surgery Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Medical Oncology Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Medical Toxicology Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Nephrology Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Neurology Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Neuropsychiatry Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Neurosurgery Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Nuclear Medicine Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Nurse Practitioner Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Obstetrics & Gynecology Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Ophthalmology Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Optometry Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Oral Surgery (Dentist only) Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Orthopedic Surgery Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Osteopathic Manipulative Medicine Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Otolaryngology Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Pain Management Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Pathology Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Pediatric Medicine Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Peripheral Vascular Disease Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Physical Medicine and Rehabilitation Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Physical Therapist in Private Practice Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Physician Assistant Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Plastic and Reconstructive Surgery Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Podiatry Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Preventive Medicine Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Psychiatry Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Psychologist, Clinical Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Public Health or Welfare Agency Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Pulmonary Disease Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Radiation Oncology Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Registered Dietitian or Nutrition Professional Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Rheumatology Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Sleep Medicine Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Sports Medicine Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Surgical Oncology Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Thoracic Surgery Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Undefined Physician type Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Undersea and Hyperbaric Medicine Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Urology Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Vascular Surgery Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: PY 2022 Virtual Group Public Reporting: MIPS Measures and Attestations
+2024-08-23 15:05:32 - INFO - Validated dataset: COVID-19 Vaccination Rates - Provider Data
+2024-08-23 15:05:32 - INFO - Validated dataset: COVID-19 Vaccination Rates - State and National Averages
+2024-08-23 15:05:32 - INFO - Validated dataset: Hospice care - State CAHPS Hospice Survey Data
+2024-08-23 15:05:32 - INFO - Validated dataset: Hospice - State Data
+2024-08-23 15:05:32 - INFO - Validated dataset: Licensed Clinical Social Worker Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Medical Genetics and Genomics Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Home Health Care - State by State Data
+2024-08-23 15:05:32 - INFO - Validated dataset: Home Health Care - Measure Date Range
+2024-08-23 15:05:32 - INFO - Validated dataset: Payment - State
+2024-08-23 15:05:32 - INFO - Validated dataset: Maternal Health - Hospital
+2024-08-23 15:05:32 - INFO - Validated dataset: Maternal Health - National
+2024-08-23 15:05:32 - INFO - Validated dataset: Maternal Health - State
+2024-08-23 15:05:32 - INFO - Validated dataset: Medical Equipment Suppliers
+2024-08-23 15:05:32 - INFO - Validated dataset: Inpatient Rehabilitation Facility - National Data
+2024-08-23 15:05:32 - INFO - Validated dataset: Long-Term Care Hospital - National Data
+2024-08-23 15:05:32 - INFO - Validated dataset: Skilled Nursing Facility Quality Reporting Program - National Data
+2024-08-23 15:05:32 - INFO - Validated dataset: Patient survey (ICH CAHPS) - State
+2024-08-23 15:05:32 - INFO - Validated dataset: Hospice-National Data
+2024-08-23 15:05:32 - INFO - Validated dataset: Facility Affiliation Data
+2024-08-23 15:05:32 - INFO - Validated dataset: Utilization Data
+2024-08-23 15:05:32 - INFO - Validated dataset: ESRD QIP - Clinical Depression Screening and Follow-up - Payment Year 2024
+2024-08-23 15:05:32 - INFO - Validated dataset: ESRD QIP - Complete QIP Data - Payment Year 2024
+2024-08-23 15:05:32 - INFO - Validated dataset: ESRD QIP - Dialysis Adequacy - Payment Year 2024
+2024-08-23 15:05:32 - INFO - Validated dataset: ESRD QIP - Footnotes - Payment Year 2024
+2024-08-23 15:05:32 - INFO - Validated dataset: ESRD QIP - Hypercalcemia - Payment Year 2024
+2024-08-23 15:05:32 - INFO - Validated dataset: ESRD QIP - NHSN Dialysis Event Measure - Payment Year 2024
+2024-08-23 15:05:32 - INFO - Validated dataset: ESRD QIP - NHSN Bloodstream Infection - Payment Year 2024
+2024-08-23 15:05:32 - INFO - Validated dataset: ESRD QIP - Standardized Readmission Ratio - Payment Year 2024
+2024-08-23 15:05:32 - INFO - Validated dataset: ESRD QIP - Standardized Transfusion Ratio - Payment Year 2024
+2024-08-23 15:05:32 - INFO - Validated dataset: ESRD QIP - Total Performance Scores - Payment Year 2024
+2024-08-23 15:05:32 - INFO - Validated dataset: ESRD QIP - Vascular Access Topic - Payment Year 2024
+2024-08-23 15:05:32 - INFO - Validated dataset: ESRD QIP - Ultrafiltration Rate - Payment Year 2024
+2024-08-23 15:05:32 - INFO - Validated dataset: ESRD QIP - Standardized Hospitalization Ratio - Payment Year 2024
+2024-08-23 15:05:32 - INFO - Validated dataset: ESRD QIP - Medication Reconciliation - Payment Year 2024
+2024-08-23 15:05:32 - INFO - Validated dataset: ESRD QIP - Percentage of Prevalent Patients Waitlisted - Payment Year 2024
+2024-08-23 15:05:32 - INFO - Validated dataset: Patient-Reported Outcomes - Hospital
+2024-08-23 15:05:32 - INFO - Validated dataset: Palliative Care - PPS-Exempt Cancer Hospital - Hospital
+2024-08-23 15:05:32 - INFO - Validated dataset: Palliative Care - PPS-Exempt Cancer Hospital - National
+2024-08-23 15:05:32 - INFO - Validated dataset: Audiologist Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Mass Immunizer Roster Biller Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Micrographic Dermatologic Surgery Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Opioid Treatment Program Office Visit Costs
+2024-08-23 15:05:32 - INFO - Validated dataset: Pharmacy Office Visit Costs
+2024-08-23 15:05:32 - INFO - Number of themed datasets: 0
+2024-08-23 15:05:32 - INFO - ✅ Finished fetching datasets.
+2024-08-23 15:05:32 - INFO - Completed CMS data download and processing.
+2024-08-23 15:06:11 - INFO - Starting CMS data download and processing...
+2024-08-23 15:06:11 - INFO - 🏗️ Fetching datasets...
+2024-08-23 15:06:11 - DEBUG - Starting new HTTPS connection (1): data.cms.gov:443
+2024-08-23 15:06:11 - DEBUG - https://data.cms.gov:443 "GET /provider-data/api/1/metastore/schemas/dataset/items HTTP/11" 200 30377
+2024-08-23 15:06:11 - INFO - Validated dataset: Dialysis Facility - Listing by Facility
+2024-08-23 15:06:44 - INFO - Starting CMS data download and processing...
+2024-08-23 15:06:44 - INFO - 🏗️ Fetching datasets...
+2024-08-23 15:06:44 - DEBUG - Starting new HTTPS connection (1): data.cms.gov:443
+2024-08-23 15:06:45 - DEBUG - https://data.cms.gov:443 "GET /provider-data/api/1/metastore/schemas/dataset/items HTTP/11" 200 30377
+2024-08-23 15:06:45 - INFO - Validated dataset: Dialysis Facility - Listing by Facility
+2024-08-23 15:06:45 - INFO - Validated dataset: Dialysis Facility - State Averages
+2024-08-23 15:06:45 - INFO - Validated dataset: Dialysis Facility - National Averages
+2024-08-23 15:06:45 - INFO - Validated dataset: Patient survey (ICH CAHPS) - Facility
+2024-08-23 15:06:45 - INFO - Validated dataset: Patient survey (ICH CAHPS) - National
+2024-08-23 15:06:45 - INFO - Validated dataset: Home Health Care - Zip Codes
+2024-08-23 15:06:45 - INFO - Validated dataset: Home Health Care Agencies
+2024-08-23 15:06:45 - INFO - Validated dataset: Home Health Care - National Data
+2024-08-23 15:06:45 - INFO - Validated dataset: Hospice - Zip Data
+2024-08-23 15:06:45 - INFO - Validated dataset: Hospice - General Information
+2024-08-23 15:06:45 - INFO - Validated dataset: Hospice - Provider Data
+2024-08-23 15:06:45 - INFO - Validated dataset: Hospice care - Provider CAHPS Hospice Survey Data
+2024-08-23 15:06:45 - INFO - Validated dataset: Hospice care - National CAHPS Hospice Survey Data
+2024-08-23 15:06:45 - INFO - Validated dataset: Outpatient and Ambulatory Surgery Consumer Assessment of Healthcare Providers and Systems (OAS CAHPS) survey for ambulatory surgical centers - Facility
+2024-08-23 15:06:45 - INFO - Validated dataset: Ambulatory Surgical Center Quality Measures - Facility
+2024-08-23 15:06:45 - INFO - Validated dataset: Ambulatory Surgical Center Quality Measures - National
+2024-08-23 15:06:45 - INFO - Validated dataset: Outpatient and Ambulatory Surgery Consumer Assessment of Healthcare Providers and Systems (OAS CAHPS) survey for ambulatory surgical centers - National
+2024-08-23 15:06:45 - INFO - Validated dataset: Ambulatory Surgical Center Quality Measures - State
+2024-08-23 15:06:45 - INFO - Validated dataset: Outpatient and Ambulatory Surgery Consumer Assessment of Healthcare Providers and Systems (OAS CAHPS) survey for ambulatory surgical centers - State
+2024-08-23 15:06:45 - INFO - Validated dataset: Comprehensive Care For Joint Replacement Model - Provider Data
+2024-08-23 15:06:45 - INFO - Validated dataset: CMS Medicare PSI-90 and component measures - six-digit estimate dataset
+2024-08-23 15:06:45 - INFO - Validated dataset: Complications and Deaths - Hospital
+2024-08-23 15:06:45 - INFO - Validated dataset: Complications and Deaths - National
+2024-08-23 15:06:45 - INFO - Validated dataset: Complications and Deaths - State
+2024-08-23 15:06:45 - INFO - Validated dataset: Footnote Crosswalk
+2024-08-23 15:06:45 - INFO - Validated dataset: Outpatient and Ambulatory Surgery Consumer Assessment of Healthcare Providers and Systems (OAS CAHPS) survey - Footnotes
+2024-08-23 15:06:45 - INFO - Validated dataset: Table 2: FY2021 Distribution of Net Change in Base Operating DRG Payment Amount
+2024-08-23 15:06:45 - INFO - Validated dataset: Table 1: FY2021 Net Change in Base Operating DRG Payment Amount
+2024-08-23 15:06:45 - INFO - Validated dataset: Table 3: FY2021 Percent Change in Medicare Payments
+2024-08-23 15:06:45 - INFO - Validated dataset: Table 4: FY2021 Value-Based Incentive Payment Amount
+2024-08-23 15:06:45 - INFO - Validated dataset: Patient survey (HCAHPS) - Hospital
+2024-08-23 15:06:45 - INFO - Validated dataset: Patient survey (HCAHPS) - National
+2024-08-23 15:06:45 - INFO - Validated dataset: Patient survey (HCAHPS) - State
+2024-08-23 15:06:45 - INFO - Validated dataset: Healthcare Associated Infections - Hospital
+2024-08-23 15:06:45 - INFO - Validated dataset: Healthcare Associated Infections - National
+2024-08-23 15:06:45 - INFO - Validated dataset: Healthcare Associated Infections - State
+2024-08-23 15:06:45 - INFO - Validated dataset: Outpatient and Ambulatory Surgery Consumer Assessment of Healthcare Providers and Systems (OAS CAHPS) survey for hospital outpatient departments - Facility
+2024-08-23 15:06:45 - INFO - Validated dataset: Outpatient and Ambulatory Surgery Consumer Assessment of Healthcare Providers and Systems (OAS CAHPS) survey for hospital outpatient departments - National
+2024-08-23 15:06:45 - INFO - Validated dataset: Outpatient and Ambulatory Surgery Consumer Assessment of Healthcare Providers and Systems (OAS CAHPS) survey for hospital outpatient departments - State
+2024-08-23 15:06:45 - INFO - Validated dataset: Hospital General Information
+2024-08-23 15:06:45 - INFO - Validated dataset: Complications and Unplanned Hospital Visits - PPS-Exempt Cancer Hospital - Hospital
+2024-08-23 15:06:45 - INFO - Validated dataset: Complications and Unplanned Hospital Visits - PPS-Exempt Cancer Hospital - National
+2024-08-23 15:06:45 - INFO - Validated dataset: Hospital-Acquired Condition (HAC) Reduction Program
+2024-08-23 15:06:45 - INFO - Validated dataset: Medicare Spending Per Beneficiary - Hospital Additional Decimal Places
+2024-08-23 15:06:45 - INFO - Validated dataset: Safety and Healthcare-Associated Infection Measures - PPS-Exempt Cancer Hospital
+2024-08-23 15:06:45 - INFO - Validated dataset: Patient Survey (PCH - HCAHPS) PPS-Exempt Cancer Hospital - Hospital
+2024-08-23 15:06:45 - INFO - Validated dataset: Patient Survey (PCH - HCAHPS) PPS-Exempt Cancer Hospital - National
+2024-08-23 15:06:45 - INFO - Validated dataset: Patient Survey (PCH - HCAHPS) PPS-Exempt Cancer Hospital - State
+2024-08-23 15:06:45 - INFO - Validated dataset: Hospital Readmissions Reduction Program
+2024-08-23 15:06:45 - INFO - Validated dataset: Hospital Value-Based Purchasing (HVBP) - Clinical Outcomes Domain Scores
+2024-08-23 15:06:45 - INFO - Validated dataset: Hospital Value-Based Purchasing (HVBP) - Efficiency Scores
+2024-08-23 15:06:45 - INFO - Validated dataset: Hospital Value-Based Purchasing (HVBP) - Person and Community Engagement Domain Scores (HCAHPS)
+2024-08-23 15:06:45 - INFO - Validated dataset: Hospital Value-Based Purchasing (HVBP) - Safety
+2024-08-23 15:06:45 - INFO - Validated dataset: Hospital Value-Based Purchasing (HVBP) - Total Performance Score
+2024-08-23 15:06:45 - INFO - Validated dataset: Inpatient Psychiatric Facility Quality Measure Data - by Facility
+2024-08-23 15:06:45 - INFO - Validated dataset: Inpatient Psychiatric Facility Quality Measure Data - National
+2024-08-23 15:06:45 - INFO - Validated dataset: Inpatient Psychiatric Facility Quality Measure Data - by State
+2024-08-23 15:06:45 - INFO - Validated dataset: Measure Dates
+2024-08-23 15:06:45 - INFO - Validated dataset: Medicare Hospital Spending by Claim
+2024-08-23 15:06:45 - INFO - Validated dataset: Medicare Spending Per Beneficiary - Hospital
+2024-08-23 15:06:45 - INFO - Validated dataset: Medicare Spending Per Beneficiary - National
+2024-08-23 15:06:45 - INFO - Validated dataset: Medicare Spending Per Beneficiary - State
+2024-08-23 15:06:45 - INFO - Validated dataset: Outpatient Imaging Efficiency - Hospital
+2024-08-23 15:06:45 - INFO - Validated dataset: Outpatient Imaging Efficiency - National
+2024-08-23 15:06:45 - INFO - Validated dataset: Outpatient Imaging Efficiency - State
+2024-08-23 15:06:45 - INFO - Validated dataset: Payment - National
+2024-08-23 15:06:45 - INFO - Validated dataset: Payment and value of care - Hospital
+2024-08-23 15:06:45 - INFO - Validated dataset: Timely and Effective Care - Hospital
+2024-08-23 15:06:45 - INFO - Validated dataset: Timely and Effective Care - National
+2024-08-23 15:06:45 - INFO - Validated dataset: Timely and Effective Care - State
+2024-08-23 15:06:45 - INFO - Validated dataset: Unplanned Hospital Visits - Hospital
+2024-08-23 15:06:45 - INFO - Validated dataset: Unplanned Hospital Visits - National
+2024-08-23 15:06:45 - INFO - Validated dataset: Unplanned Hospital Visits - State
+2024-08-23 15:06:45 - INFO - Validated dataset: Veterans Health Administration Behavioral Health Data
+2024-08-23 15:06:45 - INFO - Validated dataset: Veterans Health Administration Timely and Effective Care Data
+2024-08-23 15:06:45 - INFO - Validated dataset: Value of care - National
+2024-08-23 15:06:45 - INFO - Validated dataset: Veterans Health Administration Provider Level Data
+2024-08-23 15:06:45 - INFO - Validated dataset: Data Updates
+2024-08-23 15:06:45 - INFO - Validated dataset: Inpatient Rehabilitation Facility - General Information
+2024-08-23 15:06:45 - INFO - Validated dataset: Inpatient Rehabilitation Facility - Provider Data
+2024-08-23 15:06:45 - INFO - Validated dataset: Inpatient Rehabilitation Facility - Conditions
+2024-08-23 15:06:45 - INFO - Validated dataset: Long-Term Care Hospital - General Information
+2024-08-23 15:06:45 - INFO - Validated dataset: Long-Term Care Hospital - Provider Data
+2024-08-23 15:06:45 - INFO - Validated dataset: Fire Safety Deficiencies
+2024-08-23 15:06:45 - INFO - Validated dataset: Health Deficiencies
+2024-08-23 15:06:45 - INFO - Validated dataset: MDS Quality Measures
+2024-08-23 15:06:45 - INFO - Validated dataset: Medicare Claims Quality Measures
+2024-08-23 15:06:45 - INFO - Validated dataset: Ownership
+2024-08-23 15:06:45 - INFO - Validated dataset: Penalties
+2024-08-23 15:06:45 - INFO - Validated dataset: Provider Information
+2024-08-23 15:06:45 - INFO - Validated dataset: Skilled Nursing Facility Quality Reporting Program - Provider Data
+2024-08-23 15:06:45 - INFO - Validated dataset: Skilled Nursing Facility Quality Reporting Program - Swing Beds - Provider Data
+2024-08-23 15:06:45 - INFO - Validated dataset: State US Averages
+2024-08-23 15:06:45 - INFO - Validated dataset: Survey Summary
+2024-08-23 15:06:45 - INFO - Validated dataset: FY 2024 SNF VBP Facility-Level Dataset
+2024-08-23 15:06:45 - INFO - Validated dataset: FY 2024 SNF VBP Aggregate Performance
+2024-08-23 15:06:45 - INFO - Validated dataset: Nursing Home Data Collection Intervals
+2024-08-23 15:06:45 - INFO - Validated dataset: Citation Code Look-up
+2024-08-23 15:06:45 - INFO - Validated dataset: National Downloadable File
+2024-08-23 15:06:45 - INFO - Validated dataset: PY 2022 Group Public Reporting: MIPS Measures and Attestations
+2024-08-23 15:06:45 - INFO - Validated dataset: PY 2022 Group Public Reporting: Patient Experience
+2024-08-23 15:06:45 - INFO - Validated dataset: PY 2022 Clinician Public Reporting: MIPS Measures and Attestations
+2024-08-23 15:06:45 - INFO - Validated dataset: PY 2022 Clinician Public Reporting: Overall MIPS Performance
+2024-08-23 15:06:45 - INFO - Validated dataset: Inspection Dates
+2024-08-23 15:06:45 - INFO - Validated dataset: State-Level Health Inspection Cut Points
+2024-08-23 15:06:45 - INFO - Validated dataset: Home Health Care - Patient Survey (HHCAHPS) 2023Q1 to 2023Q4
+2024-08-23 15:06:45 - INFO - Validated dataset: Home Health Care - Patient Survey (HHCAHPS) National Data 2023Q1 to 2023Q4
+2024-08-23 15:06:45 - INFO - Validated dataset: Home Health Care - Patient Survey (HHCAHPS) State Data 2023Q1 to 2023Q4
+2024-08-23 15:06:45 - INFO - Validated dataset: Home Health Care - Patient Survey (HHCAHPS) Measure Dates 2023Q1 to 2023Q4
+2024-08-23 15:06:45 - INFO - Validated dataset: Addiction Medicine Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Advanced Heart Failure and Transplant Cardiology Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Allergy/ Immunology Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Anesthesiology Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Cardiac Surgery Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Cardiology Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Certified Clinical Nurse Specialist Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Certified Nurse Midwife Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Certified Registered Nurse Anesthetist (CRNA) Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Clinic or Group Practice Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Clinical Cardiac Electrophysiology Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Clinical Laboratory Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Colorectal Surgery (Proctology) Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Critical Care (Intensivists) Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Dentist Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Dermatology Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Diagnostic Radiology Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Emergency Medicine Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Endocrinology Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Family Practice Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Gastroenterology Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: General Practice Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: General Surgery Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Geriatric Medicine Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Geriatric Psychiatry Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Gynecological Oncology Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Hand Surgery Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Hematology Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Hematology-Oncology Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Hematopoietic Cell Transplantation and Cellular Therapy Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Hospice and Palliative Care Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Hospitalist Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Infectious Disease Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Internal Medicine Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Interventional Cardiology Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Interventional Pain Management Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Interventional Radiology Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Maxillofacial Surgery Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Medical Oncology Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Medical Toxicology Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Nephrology Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Neurology Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Neuropsychiatry Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Neurosurgery Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Nuclear Medicine Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Nurse Practitioner Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Obstetrics & Gynecology Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Ophthalmology Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Optometry Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Oral Surgery (Dentist only) Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Orthopedic Surgery Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Osteopathic Manipulative Medicine Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Otolaryngology Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Pain Management Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Pathology Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Pediatric Medicine Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Peripheral Vascular Disease Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Physical Medicine and Rehabilitation Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Physical Therapist in Private Practice Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Physician Assistant Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Plastic and Reconstructive Surgery Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Podiatry Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Preventive Medicine Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Psychiatry Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Psychologist, Clinical Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Public Health or Welfare Agency Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Pulmonary Disease Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Radiation Oncology Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Registered Dietitian or Nutrition Professional Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Rheumatology Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Sleep Medicine Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Sports Medicine Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Surgical Oncology Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Thoracic Surgery Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Undefined Physician type Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Undersea and Hyperbaric Medicine Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Urology Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Vascular Surgery Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: PY 2022 Virtual Group Public Reporting: MIPS Measures and Attestations
+2024-08-23 15:06:45 - INFO - Validated dataset: COVID-19 Vaccination Rates - Provider Data
+2024-08-23 15:06:45 - INFO - Validated dataset: COVID-19 Vaccination Rates - State and National Averages
+2024-08-23 15:06:45 - INFO - Validated dataset: Hospice care - State CAHPS Hospice Survey Data
+2024-08-23 15:06:45 - INFO - Validated dataset: Hospice - State Data
+2024-08-23 15:06:45 - INFO - Validated dataset: Licensed Clinical Social Worker Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Medical Genetics and Genomics Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Home Health Care - State by State Data
+2024-08-23 15:06:45 - INFO - Validated dataset: Home Health Care - Measure Date Range
+2024-08-23 15:06:45 - INFO - Validated dataset: Payment - State
+2024-08-23 15:06:45 - INFO - Validated dataset: Maternal Health - Hospital
+2024-08-23 15:06:45 - INFO - Validated dataset: Maternal Health - National
+2024-08-23 15:06:45 - INFO - Validated dataset: Maternal Health - State
+2024-08-23 15:06:45 - INFO - Validated dataset: Medical Equipment Suppliers
+2024-08-23 15:06:45 - INFO - Validated dataset: Inpatient Rehabilitation Facility - National Data
+2024-08-23 15:06:45 - INFO - Validated dataset: Long-Term Care Hospital - National Data
+2024-08-23 15:06:45 - INFO - Validated dataset: Skilled Nursing Facility Quality Reporting Program - National Data
+2024-08-23 15:06:45 - INFO - Validated dataset: Patient survey (ICH CAHPS) - State
+2024-08-23 15:06:45 - INFO - Validated dataset: Hospice-National Data
+2024-08-23 15:06:45 - INFO - Validated dataset: Facility Affiliation Data
+2024-08-23 15:06:45 - INFO - Validated dataset: Utilization Data
+2024-08-23 15:06:45 - INFO - Validated dataset: ESRD QIP - Clinical Depression Screening and Follow-up - Payment Year 2024
+2024-08-23 15:06:45 - INFO - Validated dataset: ESRD QIP - Complete QIP Data - Payment Year 2024
+2024-08-23 15:06:45 - INFO - Validated dataset: ESRD QIP - Dialysis Adequacy - Payment Year 2024
+2024-08-23 15:06:45 - INFO - Validated dataset: ESRD QIP - Footnotes - Payment Year 2024
+2024-08-23 15:06:45 - INFO - Validated dataset: ESRD QIP - Hypercalcemia - Payment Year 2024
+2024-08-23 15:06:45 - INFO - Validated dataset: ESRD QIP - NHSN Dialysis Event Measure - Payment Year 2024
+2024-08-23 15:06:45 - INFO - Validated dataset: ESRD QIP - NHSN Bloodstream Infection - Payment Year 2024
+2024-08-23 15:06:45 - INFO - Validated dataset: ESRD QIP - Standardized Readmission Ratio - Payment Year 2024
+2024-08-23 15:06:45 - INFO - Validated dataset: ESRD QIP - Standardized Transfusion Ratio - Payment Year 2024
+2024-08-23 15:06:45 - INFO - Validated dataset: ESRD QIP - Total Performance Scores - Payment Year 2024
+2024-08-23 15:06:45 - INFO - Validated dataset: ESRD QIP - Vascular Access Topic - Payment Year 2024
+2024-08-23 15:06:45 - INFO - Validated dataset: ESRD QIP - Ultrafiltration Rate - Payment Year 2024
+2024-08-23 15:06:45 - INFO - Validated dataset: ESRD QIP - Standardized Hospitalization Ratio - Payment Year 2024
+2024-08-23 15:06:45 - INFO - Validated dataset: ESRD QIP - Medication Reconciliation - Payment Year 2024
+2024-08-23 15:06:45 - INFO - Validated dataset: ESRD QIP - Percentage of Prevalent Patients Waitlisted - Payment Year 2024
+2024-08-23 15:06:45 - INFO - Validated dataset: Patient-Reported Outcomes - Hospital
+2024-08-23 15:06:45 - INFO - Validated dataset: Palliative Care - PPS-Exempt Cancer Hospital - Hospital
+2024-08-23 15:06:45 - INFO - Validated dataset: Palliative Care - PPS-Exempt Cancer Hospital - National
+2024-08-23 15:06:45 - INFO - Validated dataset: Audiologist Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Mass Immunizer Roster Biller Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Micrographic Dermatologic Surgery Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Opioid Treatment Program Office Visit Costs
+2024-08-23 15:06:45 - INFO - Validated dataset: Pharmacy Office Visit Costs
+2024-08-23 15:06:45 - INFO - Number of themed datasets: 72
+2024-08-23 15:06:45 - INFO - ✅ Finished fetching datasets.
+2024-08-23 15:06:45 - INFO - Completed CMS data download and processing.
