@@ -9,6 +9,7 @@ dependencies = [
     "requests>=2.32.3",
     "pydantic>=2.8.2",
     "pyinstrument>=4.7.2",
+    "ijson>=3.3.0",
 ]
 readme = "README.md"
 requires-python = ">= 3.8"
