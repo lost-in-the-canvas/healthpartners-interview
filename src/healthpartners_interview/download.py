@@ -4,27 +4,11 @@ import sys
 import ijson
 import requests
 
+from src.healthpartners_interview.last_run_logger import log_current_time
 from src.healthpartners_interview.decorators.profiling import profile_function
 from src.healthpartners_interview.pydantic_models.models import Dataset, ValidationError
 
 API_URL = 'https://data.cms.gov/provider-data/api/1/metastore/schemas/dataset/items'
-
-import os
-from datetime import datetime, timedelta
-
-LOG_FILE_PATH = './logs/last_run_time.log'
-
-def log_current_time():
-    with open(LOG_FILE_PATH, 'w') as file:
-        file.write(datetime.now().isoformat())
-    logging.debug("Logged current time: %s", datetime.now().isoformat())
-
-def get_last_run_time():
-    if not os.path.exists(LOG_FILE_PATH):
-        return None
-    with open(LOG_FILE_PATH, 'r') as file:
-        last_run_time_str = file.read().strip()
-        return datetime.fromisoformat(last_run_time_str)
 
 def parse_json(json_content):
     parser = ijson.parse(json_content)
@@ -93,13 +77,15 @@ def fetch_datasets():
 
         # Log the number of themed datasets
         logging.info("Number of themed datasets: %d", number_of_themed_datasets)
-        # Log the time of this current completed run
-        log_current_time()
         logging.info('✅ Finished fetching datasets.')
         return datasets
     except Exception as e:
         logging.error("Failed to fetch datasets", exc_info=e)
         return None
+    finally:
+        # Log the time of this current completed run
+        log_current_time()
+
 
 
 @profile_function()

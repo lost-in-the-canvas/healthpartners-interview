@@ -2,7 +2,9 @@ import logging
 import sys
 from socket import fromfd
 from datetime import datetime, timedelta
-from src.healthpartners_interview.download import download_datasets, get_last_run_time
+
+from src.healthpartners_interview.last_run_logger import setup_database, get_last_run_time, log_current_time
+from src.healthpartners_interview.download import download_datasets
 
 # Set up logging
 logging.basicConfig(
@@ -17,6 +19,7 @@ logging.basicConfig(
 
 def main() -> int:
     logging.info("Starting CMS data download and processing...")
+    setup_database()
     last_run_time = get_last_run_time()
     if last_run_time and datetime.now() - last_run_time < timedelta(hours=24):
         logging.debug("Last run time: %s", last_run_time)
