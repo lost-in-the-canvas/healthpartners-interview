@@ -19,7 +19,7 @@ requires-python = ">= 3.8"
 
 [tool.rye.scripts]
 devmain = "python -m healthpartners_interview"
-devprofile = "'C:/Users/edmun/AppData/Local/Programs/Python/Python313/Scripts/pyinstrument.exe' -r speedscope -o OUTFILE -m 'src.healthpartners_interview.__init__'"
+devprofile = "'C:/Users/edmun/AppData/Local/Programs/Python/Python313/Scripts/pyinstrument.exe' -r speedscope -o ./performance_profiles/OUTFILE -m 'src.healthpartners_interview.__init__'"
 
 [build-system]
 requires = ["hatchling"]
