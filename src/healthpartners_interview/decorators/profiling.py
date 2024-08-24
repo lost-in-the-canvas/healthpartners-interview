@@ -10,7 +10,7 @@ def profile_function(output_dir="./performance_profiles"):
             with Profiler() as profiler:
                 result = func(*args, **kwargs)
 
-            # Ensure the output directory exists
+            # Ensure the transformed directory exists
             os.makedirs(output_dir, exist_ok=True)
 
             # Generate filenames
@@ -18,13 +18,13 @@ def profile_function(output_dir="./performance_profiles"):
             speedscope_filename = os.path.join(output_dir, f"{base_filename}.speedscope.json")
             html_filename = os.path.join(output_dir, f"{base_filename}.html")
 
-            # Write Speedscope output
+            # Write Speedscope transformed
             with open(speedscope_filename, "w") as f:
                 f.write(profiler.output(pyinstrument.renderers.SpeedscopeRenderer(
                     show_all=True, timeline=True, processor_options={'show_native': True}
                 )))
 
-            # Write HTML output
+            # Write HTML transformed
             with open(html_filename, "w") as f:
                 f.write(profiler.output_html())
 

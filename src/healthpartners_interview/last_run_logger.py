@@ -3,7 +3,7 @@ from datetime import datetime
 import logging
 
 def setup_database():
-    conn = sqlite3.connect('./database/runtime_log.database')
+    conn = sqlite3.connect(r'.\database\runtime_log.database')
     cursor = conn.cursor()
     cursor.execute('''
         CREATE TABLE IF NOT EXISTS run_log (
@@ -15,7 +15,7 @@ def setup_database():
     conn.close()
 
 def log_current_time():
-    conn = sqlite3.connect('./database/runtime_log.database')
+    conn = sqlite3.connect(r'.\database\runtime_log.database')
     cursor = conn.cursor()
     cursor.execute('''
         INSERT INTO run_log (id, last_run_time)
@@ -27,7 +27,7 @@ def log_current_time():
     logging.debug("Logged current time: %s", datetime.now().isoformat())
 
 def get_last_run_time():
-    conn = sqlite3.connect('./database/runtime_log.database')
+    conn = sqlite3.connect(r'.\database\runtime_log.database')
     cursor = conn.cursor()
     cursor.execute('SELECT last_run_time FROM run_log WHERE id=1')
     row = cursor.fetchone()

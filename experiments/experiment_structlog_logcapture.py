@@ -10,7 +10,7 @@ def fixture_configure_structlog(log_output):
         processors=[
             structlog.processors.add_log_level,
             structlog.processors.TimeStamper(fmt="iso"),
-            structlog.dev.ConsoleRenderer(),  # For console output
+            structlog.dev.ConsoleRenderer(),  # For console transformed
             log_output
         ],
         wrapper_class=structlog.make_filtering_bound_logger(logging.INFO),
@@ -19,7 +19,7 @@ def fixture_configure_structlog(log_output):
         cache_logger_on_first_use=False,  # Disable caching for tests
     )
 
-# Fixture to capture log output
+# Fixture to capture log transformed
 @pytest.fixture
 def log_output():
     return LogCapture()

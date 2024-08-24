@@ -26,7 +26,7 @@ def main():
     # Stop profiling
     profiler.stop()
 
-    # Print a simple console output
+    # Print a simple console transformed
     print("\nProfiling Results (Console Output):")
     print(profiler.output_text(unicode=True, color=True))
 

@@ -25,7 +25,7 @@ def test_slow_function():
 
     profiler.stop()
 
-    # Print console output
+    # Print console transformed
     print("\nProfiling Results (Console Output):")
     print(profiler.output_text(unicode=True, color=True))
 

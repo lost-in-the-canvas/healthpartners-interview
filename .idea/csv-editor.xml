@@ -3,7 +3,385 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
+        <entry key="\data\downloadsAmbulatory_Surgical_Center_Quality_Measures_-_National.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloadsComplications_and_Deaths_-_State.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloadsComplications_and_Unplanned_Hospital_Visits_-_PPS-Exempt_Cancer_Hospital_-_Hospital.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloadsComplications_and_Unplanned_Hospital_Visits_-_PPS-Exempt_Cancer_Hospital_-_National.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloadsComprehensive_Care_For_Joint_Replacement_Model_-_Provider_Data.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloadsData_Updates.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloadsFootnote_Crosswalk.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloadsHealthcare_Associated_Infections_-_National.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloadsHealthcare_Associated_Infections_-_State.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloadsHospital-Acquired_Condition_(HAC)_Reduction_Program.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloadsHospital_Readmissions_Reduction_Program.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloadsHospital_Value-Based_Purchasing_(HVBP)_-_Clinical_Outcomes_Domain_Scores.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloadsHospital_Value-Based_Purchasing_(HVBP)_-_Efficiency_Scores.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloadsHospital_Value-Based_Purchasing_(HVBP)_-_Person_and_Community_Engagement_Domain_Scores_(HCAHPS).csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloadsHospital_Value-Based_Purchasing_(HVBP)_-_Safety.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloadsHospital_Value-Based_Purchasing_(HVBP)_-_Total_Performance_Score.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloadsInpatient_Psychiatric_Facility_Quality_Measure_Data_-_by_Facility.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloadsInpatient_Psychiatric_Facility_Quality_Measure_Data_-_by_State.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloadsMaternal_Health_-_National.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloadsMaternal_Health_-_State.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloadsMeasure_Dates.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloadsMedicare_Spending_Per_Beneficiary_-_Hospital_Additional_Decimal_Places.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloadsMedicare_Spending_Per_Beneficiary_-_National.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloadsMedicare_Spending_Per_Beneficiary_-_State.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloadsOutpatient_Imaging_Efficiency_-_State.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloadsOutpatient_and_Ambulatory_Surgery_Consumer_Assessment_of_Healthcare_Providers_and_Systems_(OAS_CAHPS)_survey_for_ambulatory_surgical_centers_-_Facility.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloadsOutpatient_and_Ambulatory_Surgery_Consumer_Assessment_of_Healthcare_Providers_and_Systems_(OAS_CAHPS)_survey_for_ambulatory_surgical_centers_-_State.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloadsOutpatient_and_Ambulatory_Surgery_Consumer_Assessment_of_Healthcare_Providers_and_Systems_(OAS_CAHPS)_survey_for_hospital_outpatient_departments_-_National.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloadsOutpatient_and_Ambulatory_Surgery_Consumer_Assessment_of_Healthcare_Providers_and_Systems_(OAS_CAHPS)_survey_for_hospital_outpatient_departments_-_State.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloadsPalliative_Care_-_PPS-Exempt_Cancer_Hospital_-_Hospital.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloadsPalliative_Care_-_PPS-Exempt_Cancer_Hospital_-_National.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloadsPatient-Reported_Outcomes_-_Hospital.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloadsPatient_Survey_(PCH_-_HCAHPS)_PPS-Exempt_Cancer_Hospital_-_Hospital.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloadsPatient_Survey_(PCH_-_HCAHPS)_PPS-Exempt_Cancer_Hospital_-_National.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloadsPatient_Survey_(PCH_-_HCAHPS)_PPS-Exempt_Cancer_Hospital_-_State.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloadsPatient_survey_(HCAHPS)_-_National.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloadsPatient_survey_(HCAHPS)_-_State.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloadsPayment_-_National.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloadsSafety_and_Healthcare-Associated_Infection_Measures_-_PPS-Exempt_Cancer_Hospital.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloadsTable_3_FY2021_Percent_Change_in_Medicare_Payments.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloadsTable_4_FY2021_Value-Based_Incentive_Payment_Amount.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloadsTimely_and_Effective_Care_-_National.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloadsTimely_and_Effective_Care_-_State.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloadsUnplanned_Hospital_Visits_-_National.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloadsUnplanned_Hospital_Visits_-_State.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloadsValue_of_care_-_National.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloadsVeterans_Health_Administration_Provider_Level_Data.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloadsVeterans_Health_Administration_Timely_and_Effective_Care_Data.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloads\Ambulatory_Surgical_Center_Quality_Measures_-_National.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloads\Ambulatory_Surgical_Center_Quality_Measures_-_State.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\data\downloads\Complications and Deaths - National.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloads\Complications_and_Deaths_-_State.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloads\Complications_and_Unplanned_Hospital_Visits_-_PPS-Exempt_Cancer_Hospital_-_Hospital.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloads\Complications_and_Unplanned_Hospital_Visits_-_PPS-Exempt_Cancer_Hospital_-_National.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloads\Comprehensive_Care_For_Joint_Replacement_Model_-_Provider_Data.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -17,7 +395,672 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\data\downloads\Data_Updates.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloads\Footnote_Crosswalk.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloads\Healthcare_Associated_Infections_-_National.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloads\Healthcare_Associated_Infections_-_State.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloads\Hospital-Acquired_Condition_(HAC)_Reduction_Program.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloads\Hospital_General_Information.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloads\Hospital_Readmissions_Reduction_Program.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloads\Hospital_Value-Based_Purchasing_(HVBP)_-_Clinical_Outcomes_Domain_Scores.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloads\Hospital_Value-Based_Purchasing_(HVBP)_-_Efficiency_Scores.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloads\Hospital_Value-Based_Purchasing_(HVBP)_-_Person_and_Community_Engagement_Domain_Scores_(HCAHPS).csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloads\Hospital_Value-Based_Purchasing_(HVBP)_-_Safety.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloads\Hospital_Value-Based_Purchasing_(HVBP)_-_Total_Performance_Score.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloads\Inpatient_Psychiatric_Facility_Quality_Measure_Data_-_National.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloads\Inpatient_Psychiatric_Facility_Quality_Measure_Data_-_by_Facility.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloads\Inpatient_Psychiatric_Facility_Quality_Measure_Data_-_by_State.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloads\Medicare_Spending_Per_Beneficiary_-_Hospital.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloads\Medicare_Spending_Per_Beneficiary_-_Hospital_Additional_Decimal_Places.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloads\Medicare_Spending_Per_Beneficiary_-_National.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloads\Medicare_Spending_Per_Beneficiary_-_State.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloads\Outpatient_and_Ambulatory_Surgery_Consumer_Assessment_of_Healthcare_Providers_and_Systems_(OAS_CAHPS)_survey_-_Footnotes.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloads\Outpatient_and_Ambulatory_Surgery_Consumer_Assessment_of_Healthcare_Providers_and_Systems_(OAS_CAHPS)_survey_for_ambulatory_surgical_centers_-_Facility.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloads\Outpatient_and_Ambulatory_Surgery_Consumer_Assessment_of_Healthcare_Providers_and_Systems_(OAS_CAHPS)_survey_for_ambulatory_surgical_centers_-_State.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloads\Outpatient_and_Ambulatory_Surgery_Consumer_Assessment_of_Healthcare_Providers_and_Systems_(OAS_CAHPS)_survey_for_hospital_outpatient_departments_-_Facility.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloads\Outpatient_and_Ambulatory_Surgery_Consumer_Assessment_of_Healthcare_Providers_and_Systems_(OAS_CAHPS)_survey_for_hospital_outpatient_departments_-_National.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloads\Outpatient_and_Ambulatory_Surgery_Consumer_Assessment_of_Healthcare_Providers_and_Systems_(OAS_CAHPS)_survey_for_hospital_outpatient_departments_-_State.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloads\Palliative_Care_-_PPS-Exempt_Cancer_Hospital_-_Hospital.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloads\Palliative_Care_-_PPS-Exempt_Cancer_Hospital_-_National.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloads\Patient-Reported_Outcomes_-_Hospital.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloads\Patient_Survey_(PCH_-_HCAHPS)_PPS-Exempt_Cancer_Hospital_-_Hospital.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloads\Patient_Survey_(PCH_-_HCAHPS)_PPS-Exempt_Cancer_Hospital_-_National.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloads\Patient_Survey_(PCH_-_HCAHPS)_PPS-Exempt_Cancer_Hospital_-_State.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloads\Patient_survey_(HCAHPS)_-_National.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloads\Patient_survey_(HCAHPS)_-_State.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloads\Payment_-_National.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloads\Payment_-_State.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloads\Safety_and_Healthcare-Associated_Infection_Measures_-_PPS-Exempt_Cancer_Hospital.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloads\Table_1_FY2021_Net_Change_in_Base_Operating_DRG_Payment_Amount.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloads\Table_2_FY2021_Distribution_of_Net_Change_in_Base_Operating_DRG_Payment_Amount.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloads\Timely_and_Effective_Care_-_National.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloads\Timely_and_Effective_Care_-_State.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\data\downloads\Unplanned Hospital Visits - State.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloads\Unplanned_Hospital_Visits_-_National.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloads\Unplanned_Hospital_Visits_-_State.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloads\Value_of_care_-_National.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloads\Veterans_Health_Administration_Behavioral_Health_Data.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloads\Veterans_Health_Administration_Provider_Level_Data.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\downloads\Veterans_Health_Administration_Timely_and_Effective_Care_Data.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\transformed\Ambulatory_Surgical_Center_Quality_Measures_-_Facility.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\transformed\Ambulatory_Surgical_Center_Quality_Measures_-_National.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\transformed\Ambulatory_Surgical_Center_Quality_Measures_-_State.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\transformed\Complications_and_Deaths_-_State.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\transformed\Complications_and_Unplanned_Hospital_Visits_-_PPS-Exempt_Cancer_Hospital_-_Hospital.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\transformed\Complications_and_Unplanned_Hospital_Visits_-_PPS-Exempt_Cancer_Hospital_-_National.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\transformed\Comprehensive_Care_For_Joint_Replacement_Model_-_Provider_Data.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\transformed\Data_Updates.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\transformed\Footnote_Crosswalk.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\transformed\Healthcare_Associated_Infections_-_National.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\transformed\Healthcare_Associated_Infections_-_State.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\transformed\Hospital-Acquired_Condition_(HAC)_Reduction_Program.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\transformed\Hospital_General_Information.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\transformed\Hospital_Readmissions_Reduction_Program.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\transformed\Hospital_Value-Based_Purchasing_(HVBP)_-_Clinical_Outcomes_Domain_Scores.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\transformed\Hospital_Value-Based_Purchasing_(HVBP)_-_Efficiency_Scores.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\transformed\Hospital_Value-Based_Purchasing_(HVBP)_-_Total_Performance_Score.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\transformed\Inpatient_Psychiatric_Facility_Quality_Measure_Data_-_National.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\transformed\Inpatient_Psychiatric_Facility_Quality_Measure_Data_-_by_Facility.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\transformed\Inpatient_Psychiatric_Facility_Quality_Measure_Data_-_by_State.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\transformed\Measure_Dates.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\transformed\Medicare_Spending_Per_Beneficiary_-_Hospital.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\transformed\Medicare_Spending_Per_Beneficiary_-_Hospital_Additional_Decimal_Places.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\transformed\Medicare_Spending_Per_Beneficiary_-_National.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\transformed\Medicare_Spending_Per_Beneficiary_-_State.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\transformed\Outpatient_Imaging_Efficiency_-_National.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\transformed\Outpatient_Imaging_Efficiency_-_State.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\transformed\Outpatient_and_Ambulatory_Surgery_Consumer_Assessment_of_Healthcare_Providers_and_Systems_(OAS_CAHPS)_survey_-_Footnotes.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\transformed\Outpatient_and_Ambulatory_Surgery_Consumer_Assessment_of_Healthcare_Providers_and_Systems_(OAS_CAHPS)_survey_for_ambulatory_surgical_centers_-_State.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\transformed\Outpatient_and_Ambulatory_Surgery_Consumer_Assessment_of_Healthcare_Providers_and_Systems_(OAS_CAHPS)_survey_for_hospital_outpatient_departments_-_Facility.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\transformed\Outpatient_and_Ambulatory_Surgery_Consumer_Assessment_of_Healthcare_Providers_and_Systems_(OAS_CAHPS)_survey_for_hospital_outpatient_departments_-_National.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\transformed\Outpatient_and_Ambulatory_Surgery_Consumer_Assessment_of_Healthcare_Providers_and_Systems_(OAS_CAHPS)_survey_for_hospital_outpatient_departments_-_State.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\transformed\Palliative_Care_-_PPS-Exempt_Cancer_Hospital_-_Hospital.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\transformed\Palliative_Care_-_PPS-Exempt_Cancer_Hospital_-_National.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\transformed\Patient-Reported_Outcomes_-_Hospital.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\transformed\Patient_Survey_(PCH_-_HCAHPS)_PPS-Exempt_Cancer_Hospital_-_Hospital.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\transformed\Patient_Survey_(PCH_-_HCAHPS)_PPS-Exempt_Cancer_Hospital_-_National.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\transformed\Patient_survey_(HCAHPS)_-_National.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\transformed\Patient_survey_(HCAHPS)_-_State.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\transformed\Payment_-_National.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\transformed\Payment_-_State.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\transformed\Safety_and_Healthcare-Associated_Infection_Measures_-_PPS-Exempt_Cancer_Hospital.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\transformed\Table_1_FY2021_Net_Change_in_Base_Operating_DRG_Payment_Amount.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\transformed\Table_2_FY2021_Distribution_of_Net_Change_in_Base_Operating_DRG_Payment_Amount.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\transformed\Timely_and_Effective_Care_-_National.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\transformed\Timely_and_Effective_Care_-_State.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\transformed\Unplanned_Hospital_Visits_-_National.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\transformed\Unplanned_Hospital_Visits_-_State.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\transformed\Veterans_Health_Administration_Timely_and_Effective_Care_Data.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
