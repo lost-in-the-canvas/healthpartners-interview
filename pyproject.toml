@@ -10,6 +10,7 @@ dependencies = [
     "pydantic>=2.8.2",
     "pyinstrument>=4.7.2",
     "ijson>=3.3.0",
+    "pandas>=2.2.2",
 ]
 readme = "README.md"
 requires-python = ">= 3.8"
@@ -22,6 +23,8 @@ requires-python = ">= 3.8"
 devmain = "python -m healthpartners_interview"
 devprofile = "'C:/Users/edmun/AppData/Local/Programs/Python/Python313/Scripts/pyinstrument.exe' -r speedscope -o ./performance_profiles/OUTFILE -m 'src.healthpartners_interview.__init__'"
 devexperiment = "python -m experiments.experiment_ijson_extract_top_level_objects"
+devexperimentb = "python -m experiments.experiment_ijson_extract_top_level_objects"
+
 
 [build-system]
 requires = ["hatchling"]

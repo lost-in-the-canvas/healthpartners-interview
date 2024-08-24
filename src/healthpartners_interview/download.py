@@ -4,9 +4,13 @@ import sys
 import ijson
 import requests
 
+from healthpartners_interview.process_themed_dataset import process_hospital_dataset
 from src.healthpartners_interview.last_run_logger import log_current_time
 from src.healthpartners_interview.decorators.profiling import profile_function
 from src.healthpartners_interview.pydantic_models.models import Dataset, ValidationError
+
+from concurrent.futures import ThreadPoolExecutor
+from datetime import datetime
 
 API_URL = 'https://data.cms.gov/provider-data/api/1/metastore/schemas/dataset/items'
 
@@ -48,8 +52,23 @@ def parse_json(json_content):
                     array_stack -= 1
         builder.event(event, value)
 
+def dataset_modified_after_last_run(dataset_obj, last_run_time):
+    """Check if the dataset has been modified after the last run time."""
+    modified_date = dataset_obj.get('modified')
+    if not modified_date:
+        logging.warning("Dataset %s has no modified date", dataset_obj.get('title', 'Unknown title'))
+        return False
+
+    modified_date = datetime.fromisoformat(modified_date)
+    if modified_date > last_run_time:
+        logging.info("Dataset %s has been modified since last run", dataset_obj.get('title', 'Unknown title'))
+        return True
+    else:
+        logging.info("Dataset %s has not been modified since last run", dataset_obj.get('title', 'Unknown title'))
+        return False
+
 def validate_and_append_dataset(dataset_obj, datasets):
-    """Validate a dataset object and append it to the datasets list if valid."""
+    """Validate dataset object and append it to the dataset list if valid."""
     try:
         dataset = Dataset(**dataset_obj)
         datasets.append(dataset)
@@ -58,7 +77,7 @@ def validate_and_append_dataset(dataset_obj, datasets):
         logging.error("Validation error for dataset: %s", dataset_obj.get('title', 'Unknown title'), exc_info=e)
         sys.exit(1)
 
-def fetch_datasets():
+def fetch_datasets(last_run_time):
     """Fetch datasets and then return a validated JSON response."""
     try:
         logging.info("🏗️ Fetching datasets...")
@@ -69,13 +88,16 @@ def fetch_datasets():
         datasets  = []
         number_of_themed_datasets = 0
 
-        for dataset_obj in parse_json(response.text):
-            validate_and_append_dataset(dataset_obj, datasets)
-            # If the theme is specified, filter the datasets by the theme "Hospitals"
-            if dataset_obj.get('theme') == ["Hospitals"]:
-                number_of_themed_datasets += 1
+        with ThreadPoolExecutor() as executor:
+            for dataset_obj in parse_json(response.text):
+                validate_and_append_dataset(dataset_obj, datasets)
+                # If the theme is specified, filter the datasets by the theme "Hospitals"
+                if dataset_obj.get('theme') == ["Hospitals"]:
+                    number_of_themed_datasets += 1
+                    # if dataset_modified_after_last_run(dataset_obj, last_run_time):
+                    executor.submit(process_hospital_dataset, dataset_obj, last_run_time)
 
-        # Log the number of themed datasets
+        # Log the amount themed datasets
         logging.info("Number of themed datasets: %d", number_of_themed_datasets)
         logging.info('✅ Finished fetching datasets.')
         return datasets
@@ -86,15 +108,11 @@ def fetch_datasets():
         # Log the time of this current completed run
         log_current_time()
 
-
-
 @profile_function()
-def download_datasets(theme="Hospitals"):
+def download_datasets(theme="Hospitals", last_run_time=None):
     """Download datasets based on a specified theme."""
     try:
-        datasets = fetch_datasets()
-
-        # Your existing code for downloading datasets goes here
+        datasets = fetch_datasets(last_run_time)
         return datasets
     except Exception as e:
         logging.error("Failed to download datasets", exc_info=e)
